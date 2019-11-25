@@ -253,29 +253,6 @@ function GetComputerInfo {
         #Return Custom Object"
         $myobj
 
-            echo "
-
-Common file paths to clear some space:
-
-                      2003`
-                      ====`
-
-\\$hostname\C$\Program Files (x86)\Common Files\Symantec Shared\VirusDefs`
-\\$hostname\C$\Program Files\Common Files\Symantec Shared\VirusDefs`
-
-                      2008`
-                      ====`
-
-\\$hostname\C$\ProgramData\Symantec\Definitions\VirusDefs\`
-\\$hostname\C$\ProgramData\Symantec\Symantec Endpoint Protection\12.1.5337.5000.105\Data\Definitions\VirusDefs`
-
-                      2012`
-                      ====`
-
-\\$hostname\C$\ProgramData\Symantec\Symantec Endpoint Protection\12.1.3001.165.105\Data\Definitions\VirusDefs`
-\\$hostname\C$\ProgramData\Symantec\Symantec Endpoint Protection\12.1.2015.2015.105\Data\Definitions\VirusDefs`
-
-"
 }
 
 ###########################################
